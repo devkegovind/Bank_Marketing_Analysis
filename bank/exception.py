@@ -1,5 +1,5 @@
 import sys
-from logging import logger
+import logging
 
 
 def error_message_detail(error,error_detail:sys):
@@ -23,11 +23,12 @@ class CustomException(Exception):
 
 
 if __name__=="__main__":
-    logging.info("Logging has started")
+    logger = logging.getLogger(__name__)
+    logger.info("Logging has started")
 
     try:
         a=1/0
         
     except Exception as e:
-        logging.info('Division by zero') 
+        logger.info('Division by zero') 
         raise CustomException(e,sys)

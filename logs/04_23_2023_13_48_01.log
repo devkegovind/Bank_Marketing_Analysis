@@ -1,0 +1,27 @@
+[2023-04-23 13:48:03,511 ] 30 root - INFO - Data Ingestion methods Starts
+[2023-04-23 13:48:03,563 ] 37 root - INFO - Dataset Read as Pandas Dataframe
+[2023-04-23 13:48:03,697 ] 52 root - INFO - Data Ingestion is Completed
+[2023-04-23 13:48:03,776 ] 118 root - INFO - Read Train & Test Data Completed
+[2023-04-23 13:48:03,794 ] 120 root - INFO - Train Dataframe Head:
+   age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome  deposit
+0   57   technician  married  secondary      no      950     yes   no  cellular    9   jul      1272         1     -1         0  unknown        0
+1   34   technician   single   tertiary      no      925     yes   no  cellular   13   apr       709         1     -1         0  unknown        1
+2   41  blue-collar   single  secondary      no       75     yes   no   unknown    1   jul       479         9     -1         0  unknown        1
+3   46   technician   single   tertiary      no     4414      no   no  cellular   18   aug       504         7     -1         0  unknown        1
+4   28      unknown   single  secondary      no     4465      no   no  cellular   28   jan       769         1     -1         0  unknown        1
+[2023-04-23 13:48:03,823 ] 121 root - INFO - Test Dataframe Head:
+   age          job   marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome  deposit
+0   65      retired  divorced  secondary      no      744      no   no  cellular    5   jul       182         1     -1         0  unknown        0
+1   38  blue-collar   married  secondary      no     1627      no   no   unknown   16   jun      1323         9     -1         0  unknown        1
+2   35  blue-collar    single  secondary      no     4963     yes   no  cellular   14   may       456         1    300         1  failure        1
+3   47  blue-collar   married  secondary      no     8229      no   no  cellular    8   aug       784         2     -1         0  unknown        1
+4   35   technician   married   tertiary      no     1473     yes   no   unknown   12   may        84         3     -1         0  unknown        0
+[2023-04-23 13:48:03,823 ] 123 root - INFO - Obtaining Processing Object
+[2023-04-23 13:48:03,823 ] 38 root - INFO - Data Transformation Initiated
+[2023-04-23 13:48:03,823 ] 62 root - INFO - Pipeline Initiated
+[2023-04-23 13:48:03,918 ] 140 root - INFO - Applying Preprocessing Object on Training & Testing Datasets
+[2023-04-23 13:48:03,918 ] 150 root - INFO - Preprocessor pickle file saved
+[2023-04-23 13:48:03,918 ] 34 root - INFO - Splitting Dependent & Independent Variables From Train & Test Dataset
+[2023-04-23 13:48:05,369 ] 54 root - INFO - Model Report : {'LogisticRegression': 0.8084156837743066, 'DecisionTreeClassifier': 0.7734841344643418, 'RandomForestClassifier': 0.8457831325301205, 'NaiveBayes': 0.6657060518731989}
+[2023-04-23 13:48:05,370 ] 69 root - INFO - Best Model Found, Model Name : RandomForestClassifier,F1 score : 0.8457831325301205
+[2023-04-23 13:48:05,370 ] 74 root - INFO - Exception is occured in the Model Trainer

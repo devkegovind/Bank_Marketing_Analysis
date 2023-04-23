@@ -1,0 +1,3 @@
+[2023-04-22 20:17:23,286 ] 30 root - INFO - Data Ingestion methods Starts
+[2023-04-22 20:17:23,364 ] 37 root - INFO - Dataset Read as Pandas Dataframe
+[2023-04-22 20:17:23,585 ] 52 root - INFO - Data Ingestion is Completed

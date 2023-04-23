@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-from .logger import logging
+from bank.logger import logging
 
 from bank.exception import CustomException
 
