@@ -42,7 +42,7 @@ class DataTransformation:
                                     'month', 'poutcome']
             
             # Define Numerical Columns of Dataset
-            numerical_columns = ['age', 'balance', 'day', 'duration', 'campaign', 'pdays', 'previous']
+            numerical_columns = ['age', 'balance', 'day', 'campaign', 'pdays', 'previous']
 
             # Define Custom Rating
             job_categories = ['admin.', 'technician', 'services', 'management', 'retired',

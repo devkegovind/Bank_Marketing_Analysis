@@ -1,0 +1,14 @@
+[2023-04-23 17:43:07,166 ] 224 werkzeug - WARNING -  * Debugger is active!
+[2023-04-23 17:43:07,168 ] 224 werkzeug - INFO -  * Debugger PIN: 519-390-182
+[2023-04-23 17:43:15,908 ] 92 root - INFO - Dataframe Gathered
+[2023-04-23 17:43:15,923 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-04-23 17:43:16,318 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:16] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:16,318 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:16] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:16,335 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:16] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:16,357 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:16] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:18,967 ] 92 root - INFO - Dataframe Gathered
+[2023-04-23 17:43:18,979 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-04-23 17:43:18,993 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:18,997 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:18] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:19,005 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:19] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-04-23 17:43:19,017 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 17:43:19] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

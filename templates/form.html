@@ -1,0 +1,141 @@
+<html>
+<body>
+<form action = "{{url_for('predict_datapoint')}}" method = "POST">
+    <div class = "form-group">
+        <label for = "job">Job:</label>
+        <select id = "job" name = "job">
+            <option value = "admin.">admin.</option>
+            <option value = "technician">technician</option>
+            <option value = "services">services</option>
+            <option value = "management">management</option>
+            <option value = "retired">retired</option>
+            <option value = "blue-collar">blue_collar</option>
+            <option value = "unemployed">unemployed</option>
+            <option value = "entrepreneur">entrepreneur</option>
+            <option value = "housemaid">housemaid</option>
+            <option value = "unknown">unknown</option>
+            <option value = "self_employed">self_employed</option>
+            <option value = "student">student</option>
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "marital">Marital:</label>
+        <select id = "marital" name = "marital">
+            <option value = "married">married</option>
+            <option value = "single">single</option>
+            <option value = "divorced">divorced</option>
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "education">Education:</label>
+        <select id = "education" name = "education">
+            <option value = "secondary">secondary</option>
+            <option value = "tertiary">tertiary</option>
+            <option value = "primary">primary</option>
+            <option value = "unknown">unknown</option>
+
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "default">Default:</label>
+        <select id = "default" name = "default">
+            <option value = "no">no</option>
+            <option value = "yes">yes</option>
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "housing">Housing:</label>
+        <select id = "housing" name = "housing">
+            <option value = "yes">yes</option>
+            <option value = "no">no</option>
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "loan">Loan:</label>
+        <select id = "loan" name = "loan">
+            <option value = "no">no</option>
+            <option value = "yes">yes</option>
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "contact">Contact:</label>
+        <select id = "contact" name = "contact">
+            <option value = "unknown">unknown</option>
+            <option value = "cellular">cellular</option>
+            <option value = "telephone">telephone</option>
+        </select>
+    </div>
+
+
+    <div class = "form-group">
+        <label for = "month">Month:</label>
+        <select id = "month" name = "month">
+            <option value = "may">may</option>
+            <option value = "jun">jun</option>
+            <option value = "jul">jul</option>
+            <option value = "aug">aug</option>
+            <option value = "oct">oct</option>
+            <option value = "nov">nov</option>
+            <option value = "dec">dec</option>
+            <option value = "jan">jan</option>
+            <option value = "feb">feb</option>
+            <option value = "mar">mar</option>
+            <option value = "apr">apr</option>
+            <option value = "sep">sep</option>
+        </select>
+    </div>
+
+    <div class = "form-group">
+        <label for = "poutcome">Poutcome:</label>
+        <select id = "poutcome" name = "poutcome">
+            <option value = "unknown">unknown</option>
+            <option value = "other">other</option>
+            <option value = "failure">failure</option>
+            <option value = "success">success</option>
+        </select>
+    </div>
+
+
+<div class = "form-group">
+    <label for = "age">Age:</label>
+    <input type = "text" id = "age" name = "age" placeholder = "Enter Age Value(int)">
+</div>
+
+<div class = "form-group">
+    <label for = "balance">Balance:</label>
+    <input type = "text" id = "balance" name = "balance" placeholder = "Enter the Value of Balance (int)">
+</div>
+
+<div class = "form-group">
+    <label for = "day">Day:</label>
+    <input type = "text" id = "day" name = "day" placeholder = "Enter the day value(int)">
+</div>
+    
+<div class = "form-group">
+    <label for = "campaign">Campaign:</label>
+    <input type = "text" id = "campaign" name = "campaign" placeholder = "Enter the campaign value(int)">
+</div>
+
+<div class = "form-group">
+    <label for = "pdays">Pdays:</label>
+    <input type = "text" id = "pdays" name = "pdays" placeholder = "Enter the pdays value(int)">
+</div>
+
+<div class = "form-group">
+    <label for = "previous">Previous:</label>
+    <input type = "text" id = 'previous' name = "previous" placeholder = "Enter the previous value(int)">
+</div>
+
+<div style = "clear:both;"></div>
+    <input type = "submit" value = "Submit">
+</form>
+</body>
+</html>
+
+    
